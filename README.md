@@ -10,4 +10,4 @@ Features:
 Techs used:
 - Backend: knex, PostgreSQL, express
 - Server: hiroku
-- Frontend: TypeScript, React
+- Frontend: TypeScript, React, HTML/CSS
