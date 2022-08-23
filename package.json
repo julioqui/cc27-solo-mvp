@@ -5,10 +5,11 @@
     "knex": "^2.2.0",
     "nodemon": "^2.0.19",
     "pg": "^8.7.3",
-    "sqlite3": "^5.0.11"
+    "seed": "^0.4.4"
   },
   "scripts": {
-    "migrate": "knex migrate:latest --knexfile src/backend/model/knexfile.js",
-    "seed": "knex seed:run --knexfile src/backend/model/knexfile.js"
+    "start": "node server.js",
+    "devStart": "nodemon server.js",
+    "seed": "knex seed:run"
   }
 }
